@@ -1,51 +1,20 @@
-body {
-  background: linear-gradient(120deg,#9C27B0,#E91E63) !important;
-}
 .white {
-  background-color: #FFF !important;
+  background-color: transparent !important;
   color: #000;
+  padding: 16px;
 }
 
 .roboto {
   font-family: 'Roboto';
 }
 
-.navbar-brand {
-  color: white;
-  font-weight: bold;
-  font-size: 5vh;
-  align-items: center;
-  align-content: center;
-  align-self: center;
+.realwhite {
+  background-color: white !important;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
-.marginBottom {
-  margin-bottom: 25px;
+.gradient {
+  background: linear-gradient(120deg,#9C27B0,#E91E63) !important;
 }
 
-.item {
-  margin-top: 50vh;
-  -ms-transform: translateY(-60%);
-  transform: translateY(-60%);
-}
-
-.card {
-  height: 50vh;
-}
-
-.transperent {
-  background-color: transparent !important;
-  /* white */
-}
-@media only screen and (min-width: 1415px) {
-  .third {
-    width: 30%;
-    margin: 16px;
-  }
-}
-
-@media only screen and (max-width: 1415px) {
-  .topThing {
-    margin-top: 120vh !important;
-  }
-}

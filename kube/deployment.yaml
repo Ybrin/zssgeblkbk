@@ -22,7 +22,7 @@ spec:
         app: rcgehphkgo-www
     spec:
       containers:
-      - image: ""
+      - image: gcr.io/boilertalk-main/github.com/ybrin/rcgehphkgo@sha256:4c367dbf91b31f48c84058b5b2a26dc26f1b5872146e7937f088ecf5bf495f7b
         imagePullPolicy: Always
         name: rcgehphkgo-www
         resources: {}

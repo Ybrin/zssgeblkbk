@@ -1,4 +1,7 @@
 $(document).ready(function() {
-  $(".item2").css("height", $(".item1").height() + 32);
-    $(".item3").css("height", $(".item1").height() + 32);
+  var maxHeight = Math.max($(".item1").height(), $(".item2").height(), $(".item3").height());
+
+  $(".item1").css("height", maxHeight + 32);
+  $(".item2").css("height", maxHeight + 32);
+  $(".item3").css("height", maxHeight + 32);
 });

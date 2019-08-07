@@ -22,7 +22,7 @@ spec:
         app: zssgeblkbk-www
     spec:
       containers:
-      - image: ""
+      - image: gcr.io/boilertalk-main/github.com/ybrin/zssgeblkbk@sha256:0c634847a665b6380ffc8837ac815c401973baed9b40b4cd87c534507a03c277
         imagePullPolicy: Always
         name: zssgeblkbk-www
         resources: {}

@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: rcgehphkgo-www-service
+  name: zssgeblkbk-www-service
   namespace: dev
 spec:
   type: ClusterIP
   selector:
-    app: rcgehphkgo-www
+    app: zssgeblkbk-www
   ports:
     - port: 80
       targetPort: 80

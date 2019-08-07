@@ -1,5 +1,5 @@
-# rcgehphkgo
+# zssgeblkbk
 
-Stage 1 of the puzzle you are looking for...
+Stage 2 of the puzzle you are (quite probably right now) looking for...
 
-https://rcgehphkgo.com
+https://zssgeblkbk.com

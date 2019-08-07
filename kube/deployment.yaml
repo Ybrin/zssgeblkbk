@@ -2,15 +2,15 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   labels:
-    app: rcgehphkgo-www
-    volkn/cd-name_github_ybrin_rcgehphkgo: master.0
-  name: rcgehphkgo-www
+    app: zssgeblkbk-www
+    volkn/cd-name_github_ybrin_zssgeblkbk: master.0
+  name: zssgeblkbk-www
   namespace: dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: rcgehphkgo-www
+      app: zssgeblkbk-www
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -19,12 +19,12 @@ spec:
   template:
     metadata:
       labels:
-        app: rcgehphkgo-www
+        app: zssgeblkbk-www
     spec:
       containers:
-      - image: gcr.io/boilertalk-main/github.com/ybrin/rcgehphkgo@sha256:4c367dbf91b31f48c84058b5b2a26dc26f1b5872146e7937f088ecf5bf495f7b
+      - image: ""
         imagePullPolicy: Always
-        name: rcgehphkgo-www
+        name: zssgeblkbk-www
         resources: {}
         securityContext:
           allowPrivilegeEscalation: false
